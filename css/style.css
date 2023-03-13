@@ -101,3 +101,11 @@
     border: .25vmin solid black;
     border-radius: 8px;
 }
+@media only screen and (max-width: 650px) {
+    .arrows1,.arrows2,.arrows3,.arrows4{
+        display: none;
+    }
+    #directions{
+        display: none;
+    }
+}
